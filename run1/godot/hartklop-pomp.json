@@ -1,0 +1,67 @@
+{
+  "id": "hartklop-pomp",
+  "titel": {
+    "nl": "De Hartklop-pomp",
+    "en": "The Heartbeat Pump"
+  },
+  "thema": "being-human",
+  "wereld": 1,
+  "maker": "meester",
+  "status": "goedgekeurd",
+  "kaart": [
+    "M M M M M M M M M M M M M M M M M M M M",
+    "M S . . ★ . . . M . . . . . ★ . . . . M",
+    "M . . ● . . . . M . ? M . . . . . ● . M",
+    "M . . . . V1 . . M . . M . . V1 . . . . M",
+    "M M M D M M M M M . . M M M M D M M M M",
+    "M . . . . . . . . . . M . . . . . . . M",
+    "M . P↑ . . . 1 2 3 . . M . . . P↑ . . . M",
+    "M . . . . . . . . . . M . . . . . . . M",
+    "M . ★ . V1 . . . . . . M . . V2 . . . . M",
+    "M . . . . . . . . . . M . . . . . . ★ M",
+    "M . . . C . . . . . . M . . . C . . F M",
+    "M M M M M M M M M M M M M M M M M M M M"
+  ],
+  "koppelingen": [
+    {
+      "knop": "D3",
+      "deur": "D5"
+    },
+    {
+      "knop": "R3",
+      "deur": "P5"
+    }
+  ],
+  "vijanden": {
+    "V1": "hikbacterie",
+    "V2": "ritmerover"
+  },
+  "eindbaas": "V2",
+  "opdracht": {
+    "vak": "IPC",
+    "leerdoel": "ipc_mp3_science_3.14",
+    "vorm": "meerkeuze",
+    "vraag": {
+      "nl": "Waarom gaan de hartkleppen maar één kant op?",
+      "en": "Why do heart valves only open one way?"
+    },
+    "goed": {
+      "nl": "Zodat het bloed niet terug kan stromen",
+      "en": "So the blood cannot flow back"
+    },
+    "fout": [
+      {
+        "nl": "Zodat het hart even kan rusten",
+        "en": "So the heart can rest"
+      },
+      {
+        "nl": "Zodat er lucht in het bloed komt",
+        "en": "So air gets into the blood"
+      }
+    ],
+    "hint": {
+      "nl": "Denk aan een deur die alleen naar buiten opengaat.",
+      "en": "Think of a door that only opens outwards."
+    }
+  }
+}
